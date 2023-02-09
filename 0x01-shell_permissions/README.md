@@ -1,0 +1,14 @@
+0-iam_betty--
+1-who_am_1--
+2-groups--
+3-new_owner
+4-empty
+5-execute
+6-multiple_permissions
+7-everybody
+8-james_bond
+9-john_doe
+10-mirror_permission
+11-directories_permission
+12-directories_permission
+13-change_group
