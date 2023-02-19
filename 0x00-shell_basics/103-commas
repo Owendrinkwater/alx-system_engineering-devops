@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1a | sed 's/\(.*\)\//\1\//;s/$/,/' | LC_ALL=C sort -df | sed '1i\.\\.\' | tr '\n' ','
+ls -afp | sed '$d' | sed '1s/^/.\//' | sed '2s/^/..\//' | LC_ALL=C sort -df | tr '\n' ',' | sed 's/,$/\n/'
