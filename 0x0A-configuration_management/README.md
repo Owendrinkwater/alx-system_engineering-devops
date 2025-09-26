@@ -49,4 +49,4 @@ puppet-lint --version
 
 ##usage
 sudo puppet apply <filename>.pp
-yy
+y
