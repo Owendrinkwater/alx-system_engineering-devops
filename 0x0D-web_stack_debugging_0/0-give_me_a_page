@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
-# run apache on designated container
+# Fix my web server to return Hello ALX
 
-echo "ServerName localhost" >> /etc/apache2.conf
+apt-get update
+apt-get install -y apache2
+echo 'Hello ALX' > /var/www/html/index.html
 service apache2 start
+
